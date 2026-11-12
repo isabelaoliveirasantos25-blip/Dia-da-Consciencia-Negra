@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consciência Negra</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: #b30000;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+nav {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff3333;
+}
+
+.banner {
+    height: 400px;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(120,0,0,0.7)
+    ),
+    url('https://images.unsplash.com/photo-1531058020387-3be344556be6')
+    center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h2 {
+    font-size: 45px;
+    color: white;
+}
+
+section {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #ff3333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #222;
+    width: 280px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #b30000;
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #ff3333;
+    margin: 15px;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    font-size: 15px;
+}
+
+.frase {
+    background: #b30000;
+    padding: 50px 20px;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    padding: 25px;
+    text-align: center;
+    color: #ccc;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Consciência Negra</h1>
+    <p>Respeito, igualdade, história e resistência.</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#historia">História</a>
+    <a href="#cultura">Cultura</a>
+    <a href="#importancia">Importância</a>
+</nav>
+
+<div class="banner" id="inicio">
+    <h2>Consciência Negra:<br>
+    Nossa história, nossa força!</h2>
+</div>
+
+<section id="historia">
+    <h2>O que é Consciência Negra?</h2>
+    <p>
+        O Dia da Consciência Negra é celebrado em 20 de novembro.
+        É uma data para reconhecer a história, a cultura e a
+        contribuição da população negra para a sociedade brasileira.
+        Também é um momento de reflexão sobre o racismo,
+        a igualdade e a luta por direitos.
+    </p>
+</section>
+
+<section id="cultura">
+    <h2>Cultura Afro-Brasileira</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81"
+            alt="Apresentação musical">
+            <h3>Música e Dança</h3>
+            <p>
+                O samba, o maracatu e a capoeira são exemplos
+                da riqueza da cultura afro-brasileira.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6"
+            alt="Manifestação cultural">
+            <h3>Tradições</h3>
+            <p>
+                As tradições africanas fazem parte da identidade,
+                da história e da diversidade do Brasil.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+            alt="Retrato de uma pessoa">
+            <h3>Representatividade</h3>
+            <p>
+                Valorizar a beleza, a identidade e as conquistas
+                da população negra é essencial.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<div class="frase">
+    "Não basta não ser racista, é preciso ser antirracista!"
+</div>
+
+<section id="importancia">
+    <h2>Por que essa data é importante?</h2>
+    <p>
+        A Consciência Negra nos ensina a respeitar as diferenças,
+        combater o preconceito, valorizar nossas raízes e reconhecer
+        a importância da população negra na construção do Brasil.
+        Todos nós podemos contribuir para uma sociedade mais justa,
+        igualitária e sem racismo.
+    </p>
+</section>
+
+<footer>
+    <p>Consciência Negra ❤️ | Respeito e igualdade para todos.</p>
+    <p>20 de Novembro</p>
+</footer>
+
+</body>
+</html>
